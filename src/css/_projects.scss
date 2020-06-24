@@ -1,0 +1,56 @@
+@import "variables";
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  background-color: $primary-color;
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+    color: $alt-color;
+    font-weight: normal;
+  }
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    .card {
+      width: 250px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 4px;
+      overflow: hidden;
+      margin: 2rem;
+      .card-header {
+        color: $primary-color;
+        text-decoration: unset;
+        text-align: center;
+        background-color: $alt-color;
+        padding: 1rem 2rem;
+        &:hover {
+          color: $alt-color;
+        }
+        &:active {
+          color: $alt-color;
+        }
+      }
+      .card-main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .card-img {
+          width: 100%;
+          height: auto;
+          object-fit: cover;
+          object-position: center;
+        }
+      }
+    }
+  }
+}
