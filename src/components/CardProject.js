@@ -15,6 +15,7 @@ const CardProject = ({ title, url, urlImg }) => {
         href={url}
         alt="..."
         target="_blank"
+        rel="noopener noreferrer"
       >
         {title}
       </a>
