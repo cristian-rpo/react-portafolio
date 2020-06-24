@@ -23,7 +23,7 @@ const Welcome = (props) => {
               value: 3,
             },
             color: {
-              value: "#32e0c4",
+              value: "#d45079",
             },
           },
         }}
