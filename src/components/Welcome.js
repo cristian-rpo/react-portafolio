@@ -28,18 +28,29 @@ const Welcome = (props) => {
           },
         }}
       />
-      <h1 id="title">Hola, soy Cristian</h1>
-      <h2 id="subtitle">Desarrollador web front end.</h2>
-      <div className="icons">
-        <FontAwesomeIcon className="icon" icon={faReact} />
-        <FontAwesomeIcon className="icon" icon={faJs} />
-        <FontAwesomeIcon className="icon" icon={faHtml5} />
-        <FontAwesomeIcon className="icon" icon={faSass} />
-        <FontAwesomeIcon className="icon" icon={faCss3Alt} />
+      <div className="box">
+        <div className="title">
+          <span className="block"></span>
+          <h1>
+            Cristian Restrepo<span></span>
+          </h1>
+        </div>
+        <div className="role">
+          <div className="block"></div>
+          <p>Frontend web dev</p>
+        </div>
+        <div className="icons">
+          <FontAwesomeIcon className="icon" icon={faReact} />
+          <FontAwesomeIcon className="icon" icon={faJs} />
+          <FontAwesomeIcon className="icon" icon={faHtml5} />
+          <FontAwesomeIcon className="icon" icon={faSass} />
+          <FontAwesomeIcon className="icon" icon={faCss3Alt} />
+        </div>
       </div>
+
       <a className="btn-header hvr-sweep-to-top" href="#aboutMe">
-        Acerca de mi
-        <FontAwesomeIcon icon={faChevronDown} />
+        About Me
+        <FontAwesomeIcon icon={faChevronDown} className="icon" />
       </a>
     </header>
   );
